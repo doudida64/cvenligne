@@ -1,0 +1,139 @@
+    
+body {
+    background-color:lightblue;
+    align-items: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+
+}
+.container {
+    position: relative; 
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    max-height: 200px;
+    background: cornsilk;
+    display:grid;
+    grid-template-columns: 1fr 2fr ;
+    border-radius: 10px;
+}
+.container .left-side{
+position : relative;
+background: rgb(51, 83, 132);
+padding: 40px;
+padding-top: 20px;
+color: white;
+} 
+.tdp {
+    position:relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.tdp .img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+.tdp .img .tof {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contactinfo {
+    padding-top: 40px;
+
+}
+.contact {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.contactinfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+
+}
+.contactinfo ul li .text{
+    color: white
+}
+/*  *---------------------------------------*/
+
+.comp {
+    padding-top: 30px;
+    color: white;
+    letter-spacing: 1px;
+    padding-left: 40px;
+}
+
+.comp ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+
+}
+
+.comp ul li .text{
+    color: white
+}
+
+.contact{
+    padding-left: 60px;
+}
+
+.cert{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.link{
+    padding-top: 30px;
+    padding-left: 70px;
+    }
+
+.QR {
+    max-height: 150px;
+    max-width: 150px;
+    padding-left: 50px;
+}
+/*  *---------------------------------------*/
+
+.container .right-side{
+    position : relative;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    }  
+.name {
+    padding-top: 20px;
+    color: rgb(51, 83, 132);
+}
+.profil {
+    color: rgb(68, 167, 206);
+}
+.profilperso h4 {
+    color: rgb(68, 167, 206);
+}
+.exppr h4 {
+    color: rgb(68, 167, 206);
+}
+.adr {
+    color: gray;
+}
+
+.forma h4 {
+    color: rgb(68, 167, 206);
+}
+.job {
+    padding-top: -800px;
+}
+.hob h4{
+    color: rgb(68, 167, 206) ;
+}
+
